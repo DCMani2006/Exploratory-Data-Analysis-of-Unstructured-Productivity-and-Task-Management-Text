@@ -1,0 +1,16 @@
+# Ignore large raw dump files exceeding GitHub file limits (>100MB)
+data/adhd/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+.env
+.venv/
+env/
+venv/
+
+# Scratch & temporary test scripts
+scratch/
